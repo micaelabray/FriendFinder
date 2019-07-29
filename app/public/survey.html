@@ -5,14 +5,420 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FriendFinder</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Added link to the jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<title>Survey Page</title>
 </head>
+
 <body>
+<header>
+    <h1 class="center">Take the survey to find your match!</h1>
+    <br><br>
+</header>
+<main>
     <div class="container">
         <div class="row">
-            <form action="#" id="QuestionOne">
-                
+            <form action="#" id="question1">
+                <p>
+                    <h2>The Jonas Brothers are the best band.</h2>
+                    <label>
+                        <input class="with-gap" name="question1" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question1" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question1" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question1" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question1" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <h2>It would be a completely different world with a Jonas sister.</h2>
+                    <label>
+                        <input class="with-gap" name="question2" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question2" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question2" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question2" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question2" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>The years in which the Jonas Brothers did not make music should be known throughout eternity as, "The Dark Days."</h2>
+                    <label>
+                        <input class="with-gap" name="question3" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question3" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question3" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question3" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question3" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>Frankie is the best Jonas Brother.</h2>
+                    <label>
+                        <input class="with-gap" name="question4" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question4" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question4" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question4" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question4" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>The best outfit: high heels and a red dress.</h2>
+                    <label>
+                        <input class="with-gap" name="question5" type="radio" value="1" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question5" type="radio" value="2" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question5" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question5" type="radio" value="4" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question5" type="radio" value="5" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>Peter Pan and Wendy did turn out fine.</h2>
+                    <label>
+                        <input class="with-gap" name="question6" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question6" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question6" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question6" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question6" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>Camp Rock is the best DCOM.</h2>
+                    <label>
+                        <input class="with-gap" name="question7" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question7" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question7" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question7" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question7" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>Jonas was the best TV show around</h2>
+                    <label>
+                        <input class="with-gap" name="question8" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question8" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question8" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question8" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question8" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <h2>The upcoming Jonas Brothers tour should be restricted to 21+</h2>
+                    <label>
+                        <input class="with-gap" name="question9" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question9" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question9" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question9" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question9" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
             </form>
+
+            <form action="#">
+                <p>
+                    <h2>The Jonas Brothers are more than a Disney Band.</h2>
+                    <label>
+                        <input class="with-gap" name="question10" type="radio" value="5" />
+                        <span>Strongly Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question10" type="radio" value="4" />
+                        <span>Agree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question10" type="radio" value="3" checked />
+                        <span>No Opinion.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question10" type="radio" value="2" />
+                        <span>Disagree.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="question10" type="radio" value="1" />
+                        <span>Strongly Disagree.</span>
+                    </label>
+                </p>
+            </form>
+            <button class="btn waves-effect waves-light" type="submit" name="action" id="submit">Submit
+                <i class="material-icons right">send</i>
+            </button>
+
         </div>
     </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4 id="match-header"></h4>
+            <p id = "match-picture"></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Awesome!</a>
+        </div>
+    </div>
+
+</main>
+
+
+
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2019
+            <a class="grey-text text-lighten-4 right" href="/api/friends">API Friends</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+        $('.modal').modal();
+    });
+    $("#submit").on("click", function (event) {
+        
+        event.preventDefault();
+        var answerTotal = 0;
+        var answerArray = [];
+        console.log(answerTotal);
+        for (i = 0; i < 10; i++) {
+            var currentQuestion = "question" + [i + 1];
+            var answerValue = $("input[name='" + currentQuestion + "']:checked").val();
+            answerArray.push(parseInt(answerValue));
+        }
+        answerTotal = answerArray.reduce((a, b) => a + b, 0);
+        console.log("Total: " + answerTotal);
+        
+        $.get("/api/match/" + answerTotal,
+            function (data) {
+                $("#match-header").text(`${data.name} is your match!`);
+                $("#match-picture").html(`<img src="${data.photo}" alt="${data.name} pic">`);
+                $('.modal').modal('open');
+                answerTotal = 0;
+            });
+    });
+</script>
 </body>
+
 </html>
